@@ -4,3 +4,5 @@ This is an automated script that writes the input deck for the Molten Salt Nucle
 Start from makedeck.py. To make changes, modify the txt files in ./cards. 
 
 You also may choose to use the bash file run.sh to submit batches - You will need to reconfigure it for you system, e.g. the cluster's PBS
+
+To switch from Criticality (default) to Burn-up modeling, uncomment the necessary lines in physics.txt and change all salts to Salt4
